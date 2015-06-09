@@ -1,0 +1,15 @@
+Traditionally, search engines have focussed on ranking search results for a particular
+query based on some relevance function computed for an "average" user who is representative of
+a large population of related users. With the widespread use of social media and the development
+of efficient and massive data collection systems, search engines are increasingly trying to optimize
+their search results based on individual users tastes and preferences. Personalization of search
+results has a lot of commercial utility to it and has thus been the focus of lot of studies recently.
+Earlier studies have come up with methods to model user preferences based on topic probability distributions,
+creating user profiles based on various personal user attributes and so on. But such approaches don't
+lend themselves directly to data which has been hashed to preserve user's privacy because of the fact
+that random projections don't preserve similarity between attribute values. In this paper we develop
+a per-user probabilistic generative model for web-search personalization which works on hashed data.
+We trained our model on a massive dataset of size 45 GB based on data from over 5 million users and
+used the NDCG measure to evaluate the performance of our algorithm. We were able to produce
+results that were better than the randomized baseline and the non-personalized baseline. We also
+discuss various avenues to explore to further improve our simplistic model to further improve the personalization.

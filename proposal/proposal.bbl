@@ -1,0 +1,41 @@
+\begin{thebibliography}{3}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Eickhoff et~al.(2013)Eickhoff, Collins-Thompson, Bennett, and
+  Dumais]{Eickhoff2013}
+Carsten Eickhoff, Kevyn Collins-Thompson, Paul~N. Bennett, and Susan Dumais.
+\newblock Personalizing atypical web search sessions.
+\newblock In \emph{Proceedings of the sixth ACM international conference on Web
+  search and data mining}, WSDM '13, pages 285--294, New York, NY, USA, 2013.
+  ACM.
+\newblock ISBN 978-1-4503-1869-3.
+\newblock \doi{10.1145/2433396.2433434}.
+\newblock URL \url{http://doi.acm.org/10.1145/2433396.2433434}.
+
+\bibitem[Shokouhi et~al.(2013)Shokouhi, White, Bennett, and
+  Radlinski]{Shokouhi2013}
+Milad Shokouhi, Ryen~W. White, Paul Bennett, and Filip Radlinski.
+\newblock Fighting search engine amnesia: reranking repeated results.
+\newblock In \emph{Proceedings of the 36th international ACM SIGIR conference
+  on Research and development in information retrieval}, SIGIR '13, pages
+  273--282, New York, NY, USA, 2013. ACM.
+\newblock ISBN 978-1-4503-2034-4.
+\newblock \doi{10.1145/2484028.2484075}.
+\newblock URL \url{http://doi.acm.org/10.1145/2484028.2484075}.
+
+\bibitem[Wang et~al.(2013)Wang, He, Chang, Song, White, and Chu]{Wang2013}
+Hongning Wang, Xiaodong He, Ming-Wei Chang, Yang Song, Ryen~W. White, and Wei
+  Chu.
+\newblock Personalized ranking model adaptation for web search.
+\newblock In \emph{Proceedings of the 36th international ACM SIGIR conference
+  on Research and development in information retrieval}, SIGIR '13, pages
+  323--332, New York, NY, USA, 2013. ACM.
+\newblock ISBN 978-1-4503-2034-4.
+\newblock \doi{10.1145/2484028.2484068}.
+\newblock URL \url{http://doi.acm.org/10.1145/2484028.2484068}.
+
+\end{thebibliography}

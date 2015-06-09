@@ -1,0 +1,46 @@
+\documentclass{article}      % Specifies the document class
+
+\usepackage{float}
+\usepackage{fullpage}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{graphicx}
+\usepackage{natbib}
+\DeclareGraphicsExtensions{.pdf,.png,.jpg}
+\graphicspath{{figures/}}
+
+\title{Personalized Web Search \\ CS578: Project Proposal}  
+\author{Asish Ghoshal, Anantha Raghuraman}      
+
+\newcommand{\ip}[2]{(#1, #2)}
+\newcommand{\iref}[1]{Fig.~\ref{#1}}
+\newcommand{\xcite}[1]{(\cite{#1})}
+
+%\newcommand{\ip}[2]{\langle #1 | #2\rangle}
+                             % This is an alternative definition of
+                             % \ip that is commented out.
+
+\begin{document}             % End of preamble and beginning of text.
+
+\maketitle                   % Produces the title.
+
+This project aims to understand current literature in personalized web search and develop a novel approach to 
+re-rank URLs of each Search Engine Results Page (SERP) returned by the search engine according to the personal preferences of the users. 
+The objective is to personalize search using the long-term and short-term user context where long-term context is based on overall user history
+while the short-term context is session based. 
+Specifically, the algorithm would re-rank top-10 URLs returned by the search engine in response
+to a user query using the history of clicks on URLs for all users and in particular, the user issuing the current query. 
+The problem statement and data has been taken from the personalized web search challenge on kaggle.com.  
+
+The evaluation is based on a variant of a dwell-time based model of personal relevance,
+and is used in the state of the art research on personalized search \xcite{Eickhoff2013, Shokouhi2013, Wang2013}. The dwell time 
+is defined as the elapsed time between the click on the document and the next click or the next query and is dwell time is well correlated 
+with the probability of the user to satisfy his/her information need with the clicked document.
+The Normalized Discounted Cumulative Gain (NDCG) measure will be the metric used to evaluate the performance of the algorithm.
+
+
+
+\bibliographystyle{unsrtnat}
+\bibliography{proposal}
+\end{document}               % End of document.
